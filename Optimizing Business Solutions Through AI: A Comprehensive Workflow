@@ -1,0 +1,36 @@
+Are there unit tests for the API?
+
+Ensure that you have written unit tests for all API endpoints to verify that they work correctly.
+Are there unit tests for the model?
+
+Confirm that there are unit tests for functions and classes related to your model, testing the accuracy and performance of the model.
+Are there unit tests for the logging?
+
+Check if you have unit tests to ensure that logging functions work correctly and capture necessary information.
+Can all of the unit tests be run with a single script and do all of the unit tests pass?
+
+Create a script to run all unit tests and ensure that they all pass when executed together.
+Is there a mechanism to monitor performance?
+
+Implement performance monitoring for your model and API, possibly using tools like Prometheus, Grafana, or other integrated monitoring solutions.
+Was there an attempt to isolate the read/write unit tests from production models and logs?
+
+Ensure that you have separated unit tests related to reading/writing to avoid affecting production models and logs.
+Does the API work as expected? For example, can you get predictions for a specific country as well as for all countries combined?
+
+Check that the API can return predictions for specific countries and a combined total for all countries.
+Does the data ingestion exist as a function or script to facilitate automation?
+
+Ensure that the data ingestion process is encapsulated in a function or script that can run automatically.
+Were multiple models compared?
+
+Perform comparisons of the performance between multiple models to identify the best model for the task.
+Did the EDA investigation use visualizations?
+
+In the exploratory data analysis (EDA), use charts and graphics to present important relationships and characteristics in the data.
+Is everything containerized within a working Docker image?
+
+Confirm that all components of the application are containerized and can run in a Docker image.
+Did they use a visualization to compare their model to the baseline model?
+
+Use visualizations to compare the performance of the current model with the baseline model to illustrate improvements.
